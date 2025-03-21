@@ -177,7 +177,8 @@ aside {
 
     .gallery-item {
         margin-bottom: 15px;
-        min-width: 100%;
+        width: 90%; 
+        max-width: 280px;
     }
 
     .gallery-item img, .gallery-item video {
