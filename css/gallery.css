@@ -169,13 +169,6 @@ aside {
         overflow-x: hidden;
         padding: 10px;
     }
-    
-    .gallery {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
 
     .gallery-item {
         margin-bottom: 15px;
