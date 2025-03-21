@@ -168,21 +168,13 @@ aside {
         padding: 10px;
     }
     
-    .gallery {
-        display: grid;
-        grid-template-columns: 1fr; /* Single column */
-        gap: 10px;
-        justify-items: center; /* Centers items horizontally */
-    }
-
     .gallery-item {
-        width: 90%; /* Adjust width for better mobile view */
-        max-width: 280px;
+        margin-bottom: 15px;
     }
 
     .gallery-item img, .gallery-item video {
         width: 100%;
-        height: auto;
+        height: 100%;
         object-fit: cover;
     }
 
@@ -191,6 +183,7 @@ aside {
         grid-column: auto;
     }
 }
+
 
 
 .modal {
