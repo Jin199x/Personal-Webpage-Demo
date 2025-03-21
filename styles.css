@@ -145,7 +145,7 @@ transform: scale (1.1);
     box-shadow: 0 6px 15px rgba(0, 0, 0, 0.7);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     body {
         padding: 10px;
     }
@@ -190,6 +190,7 @@ transform: scale (1.1);
     .social-links a {
         margin: 5px;
     }
+
 
 .buttons {
         display: none; 
@@ -263,5 +264,3 @@ html {
 
   }
 }
-
-
