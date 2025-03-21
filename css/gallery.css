@@ -162,23 +162,27 @@ aside {
 
 @media (max-width: 600px) {
     .container {
-        display: flex;
-        flex-direction: column;
         max-width: 100%;
         width: 100%;
         overflow-x: hidden;
         padding: 10px;
     }
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr; /* Single column */
+        gap: 10px;
+        justify-items: center; /* Centers items horizontally */
+    }
 
     .gallery-item {
-        margin-bottom: 15px;
-        width: 90%; 
+        width: 90%; /* Adjust width for better mobile view */
         max-width: 280px;
     }
 
     .gallery-item img, .gallery-item video {
         width: 100%;
-        height: 100%;
+        height: auto;
         object-fit: cover;
     }
 
@@ -187,6 +191,7 @@ aside {
         grid-column: auto;
     }
 }
+
 
 .modal {
     display: none;
