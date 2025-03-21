@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="header">
+  <div class="left-side">
+    <h1>Judiean A. Librando</h1>
+    <p>Web developer | Software developer</p>
+
+    <h2>About Me</h2>
+    <p>Here is a little bit about me.</p>
+    <h3>My Interests</h3>
+    <p>I enjoy learning about coding and honing my skills in different languages.</p>
+  </div>
+    <img src="profile.png" alt="profile" class="profile-pic">
+</div>
+
+<div class="content-container">
+ <div class="schedule">
+   <h2>My Schedule</h2>
+    <table border="1">
+	<tr>
+		<th>Day</th>
+		<th>Activity</th>
+	</tr>
+	<tr>
+		<td>Monday</td>
+		<td>Mobile Technology</td>
+	</tr>
+	<tr>
+		<td>Tuesday</td>
+		<td>Cyber Security</td>
+	</tr>
+	<tr>
+		<td>Wednesday</td>
+		<td>Web System Fundamental</td>
+	</tr>
+	<tr>
+		<td>Thursday</td>
+		<td>Programming Language</td>
+	</tr>
+     </table>
+
+	<div class="buttons">
+	  <br><br>
+	  <button onclick="window.location.href='pages/gallery.html'" class="glass-button">Gallery</button><br><br>
+	  <button onclick="window.location.href='pages/resumepage.html'" class="glass-button">View My Resume</button><br><br>
+	  <button onclick="window.location.href='pages/myprojects.html'" class="glass-button">View My Projects</button>
+	  </div>
+	</div>
+
+<input type="checkbox" id="menu-toggle" class="menu-checkbox">
+<label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+<div class="menu">
+    <a href="pages/gallery.html">Gallery</a>
+    <a href="pages/resumepage.html">View My Resume</a>
+    <a href="pages/myprojects.html">View My Projects</a>
+    <a href="#hobbies-container">My Hobbies</a>
+    <a href="#social-links">Contact</a>
+</div>
+
+
+   <div class="hobbies-container" id="hobbies-container">
+    <h2>Extracurricular</h2>
+    	<ul class="hobbies">
+	  <li>Playing games</li>
+	  <li>Watching Movies or Series</li>
+	  <li>Coding</li>
+	  <li>Reading</li>
+	</ul>
+    
+    <h2>My Skills</h2>
+	<ul class="skills">
+	  <li>Java</li>
+	  <li>C-Sharp</li>
+	  <li>Python</li>
+	  <li>HTML</li>
+	</ul>
+     </div>
+</div>
+
+  <h2>Connect With Me</h2>
+	<div class="social-links" id="social-links">
+		<a href="https://facebook.com/jxn199x" target="_blank">
+		  <img src="icons/facebook.png" class="social-icon">
+		</a>
+		<a href="https://www.linkedin.com/in/aoyama-sora-b36b80341" target="_blank">
+		  <img src="icons/linkedin.png" class="social-icon">
+		</a>
+		<a href="https://github.com/Jin199x" target="_blank">
+		   <img src="icons/github.png" class="social-icon">
+		</a>
+	</div>
+
+</body>
+</html>

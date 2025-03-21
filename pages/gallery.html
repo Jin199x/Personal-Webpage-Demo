@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="../css/gallery.css">
+</head>
+<body>
+    <div class="container">
+        <header>Gallery</header>
+        <nav>
+            <a href="../MyPage.html">Home</a>
+            <a href="resumepage.html">Resume</a>
+            <a href="myprojects.html">My Projects</a>
+        </nav>
+        <main>
+            <section class="gallery">
+                <div class="gallery-item"><img src="../resources/img2.jpg" alt="Manila"></div>
+                <div class="gallery-item tall"><img src="../resources/img3.jpg" alt="Classic Beige"></div>
+                <div class="gallery-item wide"><img src="../resources/img1.jpg" alt="EK"></div>
+
+		<div class="gallery-item">
+       		  <video controls>
+            	    <source src="../resources/drawing.mp4" type="video/mp4">
+            	    Your browser does not support the video tag.
+          	  </video>
+       	        </div>
+ 
+                <div class="gallery-item tall"><img src="../resources/gif1.gif" alt="GIF 1" width="100%"></div>
+                <div class="gallery-item wide"><img src="../resources/gif2.gif" alt="GIF 2"></div>
+		<div class="gallery-item"><img src="../resources/img6.jpg" alt="Mocha Cat"></div>
+            </section>
+        </main>
+	<aside>
+ 	   <div class="text-box">
+	        <p>"Life is a collection of moments."</p>
+ 	   </div>
+ 	   <div class="audio-box">
+	        <audio id="audioPlayer" controls autoplay loop>
+	            <source src="../resources/seasonoflove.mp3" type="audio/mpeg">
+	            Your browser does not support the audio element.
+	        </audio>
+	    </div>
+	</aside>
+        <footer>&copy; 2025 Web Systems and Technologies</footer>
+    </div>
+	<div id="mediaModal" class="modal">
+	    <span class="close">&times;</span>
+  	  <div class="modal-content-wrapper">
+   	     <img class="modal-content" id="modalImg">
+   	     <video class="modal-content" id="modalVideo" controls></video>
+   	 </div>
+   	 <div id="caption"></div>
+	</div>
+	<script src="../js/gallery.js"></script>
+  </body>
+</html>
